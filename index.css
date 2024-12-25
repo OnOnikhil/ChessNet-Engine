@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Add this if you want to ensure the chess pieces render nicely */
+@layer base {
+  body {
+    @apply bg-gray-100;
+  }
+}
